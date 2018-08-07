@@ -6,19 +6,22 @@
       "type": "string",
       "metadata": {
         "description": "The name of the administrator account of the VM"
-      }
+      },
+      "defaultValue": "student"
     },
     "adminPassword": {
       "type": "securestring",
       "metadata": {
         "description": "The password for the administrator account of the VM"
-      }
+      },
+      "defaultValue": "Pa55w.rd1234"
     },
      "vmSize": {
       "type": "string",
       "metadata": {
         "description": "VM size"
-      }
+      },
+      "defaultValue":"Standard_E2_v3"
     },
     "dnsNameForPublicIP": {
       "type": "string",
